@@ -48,6 +48,9 @@
                 <p>
                     <code>let func = new Function("return " + "function (a, b) { return a + b; }")();</code>
                 </p>
+                <p>
+                    <code>let func2 = new Function("a", "b", "return a + b;");</code>
+                </p>
                 <div class="form-floating">
                     <textarea class="form-control" placeholder="Leave a comment here" id="functionTextarea" style="height: 100px"></textarea>
                     <label for="functionTextarea">Input function</label>
